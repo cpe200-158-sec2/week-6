@@ -23,6 +23,9 @@ from the provided C# source code.
   ![570610560](http://www.mx7.com/i/45b/iQEE0R.png)
 
   - Test the new requirment by modifying the main function and show the result.
+  
+  ![570610560] (http://www.mx7.com/i/4f2/NnIQW6.png)
+
   - Show the main function and snippet of C# code that is related to the process.
 
       ContinentFactory asian = new AsianFactory();
