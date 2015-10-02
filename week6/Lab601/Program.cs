@@ -19,7 +19,7 @@ namespace Lab601
       world.RunFoodChain();
 
             // Wait for user input
-            Console.ReadKey();
+             Console.ReadKey();
     }
   }
  
