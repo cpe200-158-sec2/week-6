@@ -18,7 +18,7 @@ namespace Lab601
             world = new AnimalWorld(asia);
             world.RunFoodChain();  
  
-       // Wait for user input
+        // Wait for user input
       Console.ReadKey();
     }
   }
