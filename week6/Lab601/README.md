@@ -12,7 +12,7 @@ from the provided C# source code.
 
     รูปแบบของโปรแกรมเป็นแบบ Abstract Factory 
     
-    โดย - ContinentFactory เป็น abstract Function 
+    โดย - ContinentFactory เป็น abstract Factory 
     
         - AficaFactory และ AmericaFactory เป็น ConcreteFactory
          
