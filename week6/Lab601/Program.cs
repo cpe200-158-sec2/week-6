@@ -13,6 +13,11 @@ namespace Lab601
       ContinentFactory america = new AmericaFactory();
       world = new AnimalWorld(america);
       world.RunFoodChain();
+
+      ContinentFactory Asia = new AsiaFactory();
+      world = new AnimalWorld(Asia);
+      world.RunFoodChain();
+           
  
       // Wait for user input
       Console.ReadKey();
@@ -47,9 +52,21 @@ namespace Lab601
       return new Wolf();
     }
   }
+    class AsiaFactory : ContinentFactory
+    {
+        public override Herbivore CreateHerbivore()
+        {
+            return new Cat();
+        }
+        public override Carnivore CreateCarnivore()
+        {
+            return new Tiger();
+        }
+    }
  
   abstract class Herbivore
   {
+        public abstract void Eat(Carnivore a);
   }
  
   abstract class Carnivore
@@ -59,7 +76,14 @@ namespace Lab601
  
   class Wildebeest : Herbivore
   {
-  }
+        public override void Eat(Carnivore h)
+        {
+            // Eat Wildebeest
+            Console.WriteLine(this.GetType().Name +
+              " eats " + h.GetType().Name);
+        }
+    }
+
 
   class Lion : Carnivore
   {
@@ -73,7 +97,22 @@ namespace Lab601
  
   class Bison : Herbivore
   {
-  }
+        public override void Eat(Carnivore h)
+        {
+            // Eat Bison
+            Console.WriteLine(this.GetType().Name +
+              " eats " + h.GetType().Name);
+        }
+    }
+  class Cat : Herbivore
+  {
+        public override void Eat(Carnivore h)
+        {
+            // Eat Bison
+            Console.WriteLine(this.GetType().Name +
+              " eats " + h.GetType().Name);
+        }
+    }
  
   class Wolf : Carnivore
   {
@@ -84,6 +123,13 @@ namespace Lab601
         " eats " + h.GetType().Name);
     }
   }
+  class Tiger : Carnivore
+    {
+        public override void Eat(Herbivore h)
+        {
+            Console.WriteLine(this.GetType().Name + " eats " + h.GetType().Name);
+        }
+    }
  
   class AnimalWorld
   {
