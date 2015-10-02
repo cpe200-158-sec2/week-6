@@ -7,8 +7,10 @@ from the provided C# source code.
 
 1. A class diagram of the original source code
 2. Detail explaination about the identified pattern and all the parcipants
+	Ans : Abstract Factory method
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
   - Test the new requirment by modifying the main function and show the result.
   - Show the main function and snippet of C# code that is related to the process.
 
+  https://drive.google.com/file/d/0B6xUYwqudr7xX0dCX1N3alVIRTQ/view UML Diagram + Asian animals
