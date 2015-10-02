@@ -11,7 +11,7 @@ from the provided C# source code.
 
 2. Detail explaination about the identified pattern and all the parcipants
 
-	Design Pattern คือ Factory Method
+	Design Pattern : Factory Method
 	Product : Herbivore , Carnivore
 	ConcreteProduct :  Wildebeest, Lion, Bison, Wolf
 	Creator : ContinentFactory
@@ -25,7 +25,7 @@ from the provided C# source code.
   - Test the new requirment by modifying the main function and show the result.
   - Show the main function and snippet of C# code that is related to the process.
 
-	  ContinentFactory asian = new AsianFactory();
+      ContinentFactory asian = new AsianFactory();
       world = new AnimalWorld(asian);
       world.RunFoodChain();
 
