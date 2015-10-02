@@ -6,7 +6,7 @@ from the provided C# source code.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
-Answer:http://www.mediafire.com/convkey/ea80/9dcy6jdqrhu1a75zg.jpg
+Answer:![570610550](http://www.mediafire.com/convkey/ea80/9dcy6jdqrhu1a75zg.jpg)
 2. Detail explaination about the identified pattern and all the parcipants
 
 - AbstractFactory คือ ContinentFactory
@@ -19,4 +19,4 @@ Answer:http://www.mediafire.com/convkey/ea80/9dcy6jdqrhu1a75zg.jpg
   - Show the class diagram of the program after including the new requirment.
   - Test the new requirment by modifying the main function and show the result.
   - Show the main function and snippet of C# code that is related to the process.
-Answer:http://www.mediafire.com/convkey/4d07/mtrr69sjbvqnzyfzg.jpg
+Answer:![570610550](http://www.mediafire.com/convkey/4d07/mtrr69sjbvqnzyfzg.jpg)
