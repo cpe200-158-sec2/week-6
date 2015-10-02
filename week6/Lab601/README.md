@@ -12,7 +12,7 @@ from the provided C# source code.
   - Show the class diagram of the program after including the new requirment.
    ![570610563](http://www.mx7.com/i/9a7/20oxEy.png)
   - Test the new requirment by modifying the main function and show the result.
-  http://www.mx7.com/i/7c6/rcv5eO.JPG
+  ![570610563](http://www.mx7.com/i/7c6/rcv5eO.JPG)
   - Show the main function and snippet of C# code that is related to the process.
 
 
