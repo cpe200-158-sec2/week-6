@@ -8,12 +8,12 @@ from the provided C# source code.
 1. A class diagram of the original source code
 	
 2. Detail explaination about the identified pattern and all the parcipants
-
-	Design Pattern ¤×Í Factory Method
-	Product : Herbivore , Carnivore
-	ConcreteProduct :  Wildebeest, Lion, Bison, Wolf
-	Creator : ContinentFactory
-	ConcreteCreator : AfricaFactory, AmericaFactory
+/
+/	Design Pattern : Factory Method
+/	Product : Herbivore , Carnivore
+/	ConcreteProduct :  Wildebeest, Lion, Bison, Wolf
+/	Creator : ContinentFactory
+/	ConcreteCreator : AfricaFactory, AmericaFactory
 
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
