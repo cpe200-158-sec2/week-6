@@ -4,7 +4,7 @@ In this lab, each group of 2 students has to identify a design pattern and all p
 from the provided C# source code. 
 
 ## Submission: a written report which contains
-
+![570610563](http://www.mx7.com/i/dde/dbs3hs.png)
 1. A class diagram of the original source code
 2. Detail explaination about the identified pattern and all the parcipants
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
@@ -12,3 +12,4 @@ from the provided C# source code.
   - Test the new requirment by modifying the main function and show the result.
   - Show the main function and snippet of C# code that is related to the process.
 
+![570610563](http://www.mx7.com/i/9a7/20oxEy.png)
