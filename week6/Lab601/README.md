@@ -8,12 +8,19 @@ from the provided C# source code.
 1. A class diagram of the original source code
 ![570610555](https://scontent-hkg3-1.xx.fbcdn.net/hphotos-xta1/v/t35.0-12/12116231_1052620774790384_760509384_o.jpg?oh=46850649e3efeef7c631f09c044153e0&oe=56108575)
 2. Detail explaination about the identified pattern and all the parcipants
+
   +รูปแบบ Abstract Factory
+
   +Class ContinentFactory เป็น Abstract Class
+
   +class AfricaFactory และ AmericaFactory เป็น ConcreteFactory
+
   +มีAbstrat Product คือ class Herbivore และ Carnivore 
+
   +class  wildebeest และ bison เป็นclassที่สืบทอดจาก Herbivore ส่วนclass lion และwolfเป็นclassที่สืบทอดจากCarnivore
+
   +มีClient คือ AnimalWorld
+
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
 ![570610555](https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpt1/v/t35.0-12/12116077_1052621251457003_1748200746_o.jpg?oh=978b7e5a6cb4fba93fb5fe044e9f246f&oe=5610F6BB&__gda__=1443927184_4fdda67eed73bda079b44b6636175989)
