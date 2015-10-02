@@ -9,10 +9,10 @@ from the provided C# source code.
 ![570610611](https://scontent-hkg3-1.xx.fbcdn.net/hphotos-xap1/v/t34.0-12/12092368_1261451337203573_1292026239_n.jpg?oh=ef28cab7585a283da38652d5ef541ac2&oe=5610E055)
 
 2. Detail explaination about the identified pattern and all the parcipants
-ContinentFactory = Abstract Factory
-AfricaFactory, AmericaFactory = Concrete Factory
-Herbivore, Carnivore = Abstract Product
-Bison, Wildebeest, Lion, Wolf = Product created from Concreet Factory
+ContinentFactory = Abstract Factory /
+AfricaFactory, AmericaFactory = Concrete Factory /
+Herbivore, Carnivore = Abstract Product /
+Bison, Wildebeest, Lion, Wolf = Product created from Concreet Factory /
 AnimalWorld = Client
 
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
