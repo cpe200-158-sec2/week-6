@@ -13,7 +13,7 @@ from the provided C# program.
 -Creator:: class Ducument
 -ConcreteCreator:: class Report, class Resume
 -ConcreteProduct:: class SkillsPage,class EducationPage,class IntroductionPage,class ExperiencePage,
-class ResultsPage,class ConclusionPage,class SummaryPage,BibliographyPage
+class ResultsPage,class ConclusionPage,class SummaryPage,BibliographyPage 
 
 
 
