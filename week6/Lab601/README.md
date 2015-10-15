@@ -6,17 +6,17 @@ from the provided C# source code.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
-+![570610615](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xat1/v/t35.0-12/12084796_1090193911031590_988775296_o.jpg?oh=115cd36890f6b67fd3aeebc3a0d42113&oe=56109C00&__gda__=1443931797_8d200a2f2612543ef597a143ce0187fb)
++![570610615](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xat1/v/t35.0-12/12084796_1090193911031590_988775296_o.jpg?oh=d21148c1efe422be9a5e7895b0dfff73&oe=5621BF80&__gda__=1445054997_fd9f31221a12b88ffe9a77ef673b5898)
 2. Detail explaination about the identified pattern and all the parcipants
 -
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
-  +![570610615](https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/v/t35.0-12/12082811_1090195864364728_437084225_o.jpg?oh=8a4d22a6892a4f2e196e1788d093ce31&oe=5610F31C&__gda__=1443928329_26392d1f4939cc0151036fbbafb4a270)
+  +![570610615](https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/v/t35.0-12/12082811_1090195864364728_437084225_o.jpg?oh=57d0ed4ce305860a5ac7d0bd14c1439f&oe=5622BF5C&__gda__=1445051529_f82ea3936fc7ccf517a90411c9edb7e4)
   - Test the new requirment by modifying the main function and show the result.
-  +![570610615](https://scontent-hkg3-1.xx.fbcdn.net/hphotos-xpa1/v/t34.0-12/12071881_1090196811031300_1236306132_n.jpg?oh=01d6e5229706eab9d77a9a7f883bf721&oe=56108CE0)
+  +![570610615](https://scontent-sin1-1.xx.fbcdn.net/hphotos-xpa1/v/t34.0-12/12071881_1090196811031300_1236306132_n.jpg?oh=3e4ec2bd9b2666365d1a5264909f5310&oe=5621B060)
   - Show the main function and snippet of C# code that is related to the process.
   
-   class MainApp
+  class MainApp
   {
     public static void Main()
     {
