@@ -9,6 +9,8 @@ from the provided C# program.
 ![57610560](http://www.mx7.com/i/870/G1B3Vj.png)
 
 2. Detail explaination about the identified pattern and all the parcipants
+
+
  Designe Pattern : Abstract factory
  abstract factory คือ Document 
  Concrete factory คือ Report และ Resume
