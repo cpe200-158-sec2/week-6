@@ -6,4 +6,17 @@ from the provided C# program.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
+![57610560](http://www.mx7.com/i/870/G1B3Vj.png)
+
 2. Detail explaination about the identified pattern and all the parcipants
+
+
+ Designe Pattern : Abstract factory
+ 
+ abstract factory คือ Document 
+ 
+ Concrete factory คือ Report และ Resume
+ 
+ Abstract Product คือ Page
+ 
+ Product คือ BibliographyPage , SummaryPage , ConclusionPage , ResultsPage , IntroductionPage ,SkillPage , EducationPage , ExperiencePage
