@@ -7,3 +7,6 @@ from the provided C# program.
 
 1. A class diagram of the original source code
 2. Detail explaination about the identified pattern and all the parcipants
+ -Product:: class Page
+ -Creator:: class Ducument
+ -ConcreteCreator:: class Report, class Resume

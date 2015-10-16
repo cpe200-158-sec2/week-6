@@ -1,0 +1,5 @@
+E:\week-6\week6\Lab601\bin\Debug\Lab601.exe
+E:\week-6\week6\Lab601\bin\Debug\Lab601.pdb
+E:\week-6\week6\Lab601\obj\x86\Debug\Lab601.csprojResolveAssemblyReference.cache
+E:\week-6\week6\Lab601\obj\x86\Debug\Lab601.exe
+E:\week-6\week6\Lab601\obj\x86\Debug\Lab601.pdb
