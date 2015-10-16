@@ -12,7 +12,11 @@ from the provided C# program.
 
 
  Designe Pattern : Abstract factory
+ 
  abstract factory คือ Document 
+ 
  Concrete factory คือ Report และ Resume
+ 
  Abstract Product คือ Page
+ 
  Product คือ BibliographyPage , SummaryPage , ConclusionPage , ResultsPage , IntroductionPage ,SkillPage , EducationPage , ExperiencePage
