@@ -6,4 +6,10 @@ from the provided C# program.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
+![570610579](https://www.img.in.th/image/7Ybk)
 2. Detail explaination about the identified pattern and all the parcipants
+Abstract Factory : Document 
+oncreteFactory1 : Resume
+Product : SkillsPage ExperiencePage EducationPage
+ConcreteFactory1 : Report
+Product : SummaryPage IntroductionPage ConclusionPage ResultPage BibiographyPage
