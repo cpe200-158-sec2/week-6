@@ -6,7 +6,7 @@ from the provided C# source code.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
-	 ![570610618](http://www.uppic.biz/images/2015/10/02/lab601.jpg)
+	 ![570610618](http://www.mx7.com/i/aa3/QTzU0g.jpg)
 2. Detail explaination about the identified pattern and all the parcipants
         - Pattern : Abstract Factory (Provide an interface for creating families of related objects)
 	- Abstract Factory : ContinentFactory (declares an interface for operations that create abstract products)
@@ -16,9 +16,9 @@ from the provided C# source code.
         - Client : AnimalWorld (creates a new object by asking a prototype to clone itself)
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
-      ![570610618](http://www.uppic.biz/images/2015/10/02/lab602.jpg)
+      ![570610618](http://www.mx7.com/i/e24/TwNUaq.jpg)
   - Test the new requirment by modifying the main function and show the result.
-      ![570610618](http://www.uppic.biz/images/2015/10/02/Screen_Shot_2558-10-02_at_6.png)
+      ![570610618](http://www.mx7.com/i/e68/jdavdm.png)
   - Show the main function and snippet of C# code that is related to the process.
     ContinentFactory asian = new AsianFactory();      
 	world = new AnimalWorld(asian);      
