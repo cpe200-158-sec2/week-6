@@ -13,12 +13,10 @@ namespace Lab601
             ContinentFactory america = new AmericaFactory();
             world = new AnimalWorld(america);
             world.RunFoodChain();
-
+            // Wait for user input
             ContinentFactory asian = new AsianFactory();
             world = new AnimalWorld(asian);
             world.RunFoodChain();
-
-            // Wait for user input
             Console.ReadKey();
         }
     }
@@ -28,7 +26,28 @@ namespace Lab601
         public abstract Herbivore CreateHerbivore();
         public abstract Carnivore CreateCarnivore();
     }
-
+    class AsianFactory : ContinentFactory
+    {
+        public override Herbivore CreateHerbivore()
+        {
+            return new Deer();
+        }
+        public override Carnivore CreateCarnivore()
+        {
+            return new Bengal();
+        }
+    }
+    class Deer : Herbivore
+    {
+    }
+    class Bengal : Carnivore
+    {
+        public override void Eat(Herbivore h)
+        {
+            //Eat Deer
+            Console.WriteLine(this.GetType().Name + " eats " + h.GetType().Name);
+        }
+    }
     class AfricaFactory : ContinentFactory
     {
         public override Herbivore CreateHerbivore()
@@ -52,18 +71,6 @@ namespace Lab601
         }
     }
 
-    class AsianFactory : ContinentFactory
-    {
-        public override Herbivore CreateHerbivore()
-        {
-            return new Rabbit();
-        }
-        public override Carnivore CreateCarnivore()
-        {
-            return new Crocodile();
-        }
-    }
-
     abstract class Herbivore
     {
     }
@@ -76,7 +83,6 @@ namespace Lab601
     class Wildebeest : Herbivore
     {
     }
-
     class Lion : Carnivore
     {
         public override void Eat(Herbivore h)
@@ -101,23 +107,6 @@ namespace Lab601
         }
     }
 
-    class Rabbit : Herbivore
-    {
-
-    }
-
-    class Crocodile : Carnivore
-    {
-        public override void Eat(Herbivore a)
-        {
-            // Eat Rabbit
-            Console.WriteLine(this.GetType().Name +
-                " eats " + a.GetType().Name);
-        }
-
-    }
-
-
     class AnimalWorld
     {
         private Herbivore _herbivore;
@@ -135,4 +124,5 @@ namespace Lab601
             _carnivore.Eat(_herbivore);
         }
     }
+
 }
