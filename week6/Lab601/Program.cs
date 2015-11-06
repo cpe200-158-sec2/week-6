@@ -79,7 +79,7 @@ namespace Lab601
     {
         public abstract void Eat(Herbivore h);
     }
-
+      
     class Wildebeest : Herbivore
     {
     }
@@ -121,7 +121,7 @@ namespace Lab601
 
         public void RunFoodChain()
         {
-            _carnivore.Eat(_herbivore);
+            _carnivore.Eat(_herbivore);  
         }
     }
 
