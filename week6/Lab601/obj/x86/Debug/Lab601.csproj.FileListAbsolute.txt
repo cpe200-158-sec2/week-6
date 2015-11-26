@@ -1,0 +1,5 @@
+C:\Users\User\Source\Repos\week-6\week6\Lab601\bin\Debug\Lab601.exe
+C:\Users\User\Source\Repos\week-6\week6\Lab601\bin\Debug\Lab601.pdb
+C:\Users\User\Source\Repos\week-6\week6\Lab601\obj\x86\Debug\Lab601.csprojResolveAssemblyReference.cache
+C:\Users\User\Source\Repos\week-6\week6\Lab601\obj\x86\Debug\Lab601.exe
+C:\Users\User\Source\Repos\week-6\week6\Lab601\obj\x86\Debug\Lab601.pdb
