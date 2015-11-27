@@ -1,0 +1,5 @@
+C:\Users\User\Source\Repos\week-6\week6\Lab602\bin\Debug\Lab602.exe
+C:\Users\User\Source\Repos\week-6\week6\Lab602\bin\Debug\Lab602.pdb
+C:\Users\User\Source\Repos\week-6\week6\Lab602\obj\x86\Debug\Lab602.csprojResolveAssemblyReference.cache
+C:\Users\User\Source\Repos\week-6\week6\Lab602\obj\x86\Debug\Lab602.exe
+C:\Users\User\Source\Repos\week-6\week6\Lab602\obj\x86\Debug\Lab602.pdb
