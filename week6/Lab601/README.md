@@ -6,7 +6,7 @@ from the provided C# source code.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
-	![570610617](https://drive.google.com/file/d/0BxDm3X9oj_-6S296OERxODI5cmc/view?usp=sharing)
+	![570610617](http://www.mx7.com/i/131/kK8FdO.png)
 
 2. Detail explaination about the identified pattern and all the parcipants
 	Design Pattern : Factory Method
@@ -17,9 +17,9 @@ from the provided C# source code.
 
 3. Explain how to include "an asian herbivore and an asian carnivore" to the program: 
   - Show the class diagram of the program after including the new requirment.
-	![570610617](https://drive.google.com/file/d/0BxDm3X9oj_-6cVR1X1JRMkZhR1U/view?usp=sharing)
+	![570610617](http://www.mx7.com/i/bd8/7ECbX4.png)
   - Test the new requirment by modifying the main function and show the result.
-	![570610617](https://drive.google.com/file/d/0BxDm3X9oj_-6ZktvNzJKWnlaNlU/view?usp=sharing)
+	![570610617](http://www.mx7.com/i/893/Y7tmST.png)
   - Show the main function and snippet of C# code that is related to the process.
 	  ContinentFactory asian = new AsianFactory();
       world = new AnimalWorld(asian);
