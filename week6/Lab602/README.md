@@ -6,4 +6,9 @@ from the provided C# program.
 ## Submission: a written report which contains
 
 1. A class diagram of the original source code
+![570610581](http://www.mx7.com/i/500/8daoyR.png)
+
 2. Detail explaination about the identified pattern and all the parcipants
+Page (defines the interface of objects the factory method creates) ConcreteProduct : SkillsPage, EducationPage, ExperiencePage, IntroductionPage, ResultsPage, ConclusionPage, SummaryPage, and BibliographyPage (implements the Product interface) 
+Creator : Document (declare the factory method, which returns an object of type Product) 
+ConcreteCreator : Resume and Report (overrides the factory method to return an instance of a ConcreteProduct)
